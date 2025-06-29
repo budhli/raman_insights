@@ -1,0 +1,238 @@
+{
+  "landing": {
+    "header": {
+      "title": "Coach Raman",
+      "subtitle": "Dementia Communication, Reimagined with Heart",
+      "tagline": "For the 55 million families still fighting"
+    },
+    "insights": {
+      "rotating": [
+        {
+          "icon": "🧠",
+          "text": "The hippocampus, which forms new memories, is damaged in dementia - but emotional memories in other brain areas stay strong",
+          "category": "brain_fact"
+        },
+        {
+          "icon": "❤️",
+          "text": "People with dementia don't lose their need for love - they just need us to meet them where they are",
+          "category": "connection"
+        },
+        {
+          "icon": "⏰",
+          "text": "What feels like 'just a moment' to us can feel like hours to someone with dementia",
+          "category": "time"
+        },
+        {
+          "icon": "🎯",
+          "text": "Saying 'Remember when...' can cause frustration. Instead try 'I was thinking about...' and share the memory yourself",
+          "category": "communication"
+        },
+        {
+          "icon": "💙",
+          "text": "Every person with dementia is still the same person inside - they're just experiencing the world through a different lens",
+          "category": "dignity"
+        }
+      ]
+    },
+    "sections": {
+      "story": {
+        "title": "The Story Behind the Name",
+        "content": "Coach Raman is named after my father, who lived with frontal temporal dementia for 10 years. Together, we learned how to communicate when words became harder to find and thoughts took time to form."
+      },
+      "why_matters": {
+        "title": "Why It Matters",
+        "stats": [
+          "**55 million** people live with dementia worldwide.",
+          "**6.7 million Americans**, **4.1 million Indians** are affected.",
+          "Alzheimer's disease accounts for **60–80%** of all dementia cases.",
+          "🧓🏽 Family caregivers provide over **$413 billion** in unpaid care annually—but **70%** report stress from lack of coordination and guidance.",
+          "**Yet families receive zero communication training.**"
+        ]
+      },
+      "knowledge": {
+        "title": "The Knowledge That Dies With Grief",
+        "insights": [
+          {
+            "title": "\"Use it or lose it\"",
+            "description": "Let them speak. Don't finish their sentences."
+          },
+          {
+            "title": "Cognitive load is everything",
+            "description": "Your reactions increase their mental strain."
+          },
+          {
+            "title": "Your expression is their mirror",
+            "description": "Calm faces encourage. Frustrated ones confuse."
+          },
+          {
+            "title": "Communication slows decline",
+            "description": "Every meaningful interaction counts."
+          },
+          {
+            "title": "**Their deepest need is to feel understood**",
+            "description": "Not corrected. Not rushed."
+          },
+          {
+            "title": "Patience is medicine",
+            "description": "Your calm presence is the anchor they cling to."
+          }
+        ],
+        "closing": [
+          "Every family—whether facing Alzheimer's, vascular dementia, or any other form—discovers these truths through heartbreak and trial and error. Then when their loved one passes, all that wisdom dies with their grief.",
+          "**That's 55 million families worldwide learning the same lessons alone.**"
+        ]
+      },
+      "what_coach_does": {
+        "title": "🎙️ What Coach Raman Does",
+        "intro": [
+          "This isn't another app about dementia facts or medical checklists. Coach Raman teaches *how to connect*—the way real caring families do, every day.",
+          "I'm building an AI coaching system named \"Coach Raman\" - after my father. Three integrated apps that teach families how to communicate effectively with dementia patients:"
+        ],
+        "features": [
+          {
+            "title": "**Raman Learn** - AI-powered education on communication fundamentals",
+            "description": "👨🏽‍🏫 Understand the neuroscience behind communication strategies that work"
+          },
+          {
+            "title": "**Raman Practice** - Gentle coaching in a safe environment",
+            "description": "🗣️ Hear how dementia actually affects patterns, memory, and response and practice in a safe environment how to communicate effectively"
+          },
+          {
+            "title": "**Raman Live** - Real time feedback during conversations with your loved one",
+            "description": "Get scores on interruptions, success with shorter sentences, pacing, and jumping ahead. Track your communication behavior changes and set goals for improvement."
+          },
+          {
+            "title": "💓 Emotional Guidance",
+            "description": "Build trust, reduce distress, and communicate with dignity"
+          }
+        ]
+      },
+      "vision": {
+        "title": "The Vision",
+        "content": [
+          "Love doesn't stop when words become harder. Every family deserves to maintain meaningful connections throughout the dementia journey, with the right tools and support from the very beginning.",
+          "My father couldn't teach other families while he was sick. But through Coach Raman, his lessons can help them now."
+        ]
+      },
+      "cta": {
+        "button_text": "Try Coach Raman"
+      },
+      "closing": {
+        "message": [
+          "**This isn't about technology. It's about love that refuses to let wisdom die with loss.**",
+          "For the 55 million families still fighting. For my father, who deserves to teach again."
+        ]
+      }
+    }
+  },
+  "reflection": {
+    "setup": {
+      "costNotice": "Reflection chats are limited to 2 questions per lesson to keep costs manageable while serving more families. 💙",
+      "maxQuestions": 2,
+      "chatHeader": "💬 Reflection Chat",
+      "costSubtext": "(Limited to 2 questions to keep costs low and help more families)"
+    },
+    "chat": {
+      "questionCounter": "Question {current}/{total}",
+      "costReminder": "(Limiting questions to reduce costs)",
+      "questionsRemaining": "Questions remaining: {remaining}/{total}",
+      "inputPlaceholder": "Share your thoughts with Raman...",
+      "submitButton": "Send",
+      "skipButton": "Skip Reflection",
+      "continueButton": "Continue to Next Lesson",
+      "backToMenuButton": "Back to Menu"
+    },
+    "completion": {
+      "message": "Thank you for sharing your thoughts with me. I'm limiting our chat to keep costs low so more families can access this education.",
+      "readyForNext": "Ready for the next lesson?",
+      "finalLesson": "You've completed all the lessons. Thank you for learning with me."
+    },
+    "lessons": {
+      "lesson1": {
+        "title": "Meet Raman",
+        "focus": "Physical Awareness",
+        "initialQuestion": "Thank you for listening to me. I'm curious... Did your body tense up when I said 'dementia'? Notice what happened in your shoulders or jaw.",
+        "context": "This is lesson 1 about meeting Raman and first impressions.",
+        "learningGoal": "Help user recognize their physical reactions to dementia disclosure"
+      },
+      "lesson2": {
+        "title": "Why I Need Time", 
+        "focus": "Emotional Recognition",
+        "initialQuestion": "I noticed those pauses in my speech. What was harder for you - the slow speech or the long silences? What emotions came up?",
+        "context": "This is lesson 2 about needing time and patience.",
+        "learningGoal": "Help user identify their emotional responses to communication delays"
+      },
+      "lesson3": {
+        "title": "One Thing at a Time",
+        "focus": "Behavioral Patterns", 
+        "initialQuestion": "When I talked about getting confused with too many instructions, how many times did you want to jump in and 'help' or organize things for me?",
+        "context": "This is lesson 3 about cognitive overload and simple instructions.",
+        "learningGoal": "Help user recognize their impulse to intervene or fix"
+      },
+      "lesson4": {
+        "title": "Don't Interrupt My Thoughts",
+        "focus": "Perspective Shift",
+        "initialQuestion": "Now imagine feeling this rushed in every conversation, every day. How would that change you? What would it feel like to have your thinking interrupted constantly?",
+        "context": "This is lesson 4 about not interrupting thought processes.",
+        "learningGoal": "Help user develop empathy through perspective-taking"
+      },
+      "lesson5": {
+        "title": "How Words Make Me Feel",
+        "focus": "Action Commitment", 
+        "initialQuestion": "Think of someone in your life - maybe a parent, spouse, or friend. What's one specific thing you'll do differently after meeting me?",
+        "context": "This is lesson 5 about the emotional impact of word choices.",
+        "learningGoal": "Help user commit to specific behavioral changes"
+      }
+    },
+    "mockResponses": {
+      "lesson1": {
+        "responses": [
+          "That's a very honest reaction. Many people feel tension when they first hear the word 'dementia.' The fact that you noticed your body's response shows you're really paying attention.",
+          "My wife had a similar reaction when I was first diagnosed. Your awareness of these physical responses will help you connect better with people like me.",
+          "In my business days, I learned that first impressions happen in seconds. Your body knew something important was happening before your mind caught up."
+        ]
+      },
+      "lesson2": {
+        "responses": [
+          "The silences are often harder than the slow speech, aren't they? My daughter told me the same thing - waiting feels more difficult than listening slowly.",
+          "When I was running my company, I used to hate waiting too. Now I understand that patience isn't just politeness - it's kindness.",
+          "Those emotions you felt are completely normal. Every family member I've talked to experiences some frustration with the pace."
+        ]
+      },
+      "lesson3": {
+        "responses": [
+          "That urge to help and organize is so natural - my son does the same thing. But sometimes the best help is just letting me figure it out my way.",
+          "In business, I was always the one trying to make things more efficient. Now I'm learning that efficiency isn't always what matters most.",
+          "It's interesting how we want to fix things, isn't it? My wife has learned that sometimes I don't need fixing - just understanding."
+        ]
+      },
+      "lesson4": {
+        "responses": [
+          "That feeling of being rushed constantly - it's exhausting. Imagine if every conversation in your day felt like you were being hurried along.",
+          "My daughters are getting better at this, but it took time. When someone waits for my thoughts, I feel respected instead of broken.",
+          "In my work years, I interrupted people all the time. Now I understand how it feels to have your thinking process cut off mid-stream."
+        ]
+      },
+      "lesson5": {
+        "responses": [
+          "That's wonderful that you're thinking of someone specific. Small changes in how we phrase things can make such a big difference in how loved someone feels.",
+          "My wife started doing exactly that - turning reminders into caring gestures. Instead of 'Don't forget your jacket,' she says 'I brought your jacket.' Same action, completely different feeling.",
+          "The fact that you're ready to make a specific change tells me this conversation has been meaningful. That person in your life is lucky to have you thinking about them this way."
+        ]
+      }
+    },
+    "fallbackResponses": {
+      "error": "I'm having trouble responding right now. Your thoughts are important to me.",
+      "inappropriate": "I appreciate you sharing, but let's keep our conversation focused on communication and connection.",
+      "technical": "Something went wrong with our chat. Would you like to continue to the next lesson?",
+      "generic": "Thank you for sharing that with me. Your awareness is really important."
+    },
+    "transitions": {
+      "enterReflection": "Now let's reflect on what you just experienced...",
+      "betweenQuestions": "I'd like to ask you one more thing...",
+      "exitReflection": "Thank you for sharing your thoughts with me.",
+      "nextLesson": "Let's continue to the next lesson.",
+      "courseComplete": "You've completed all lessons with me. Thank you for this journey."
+    }
+  }
+}

@@ -1,0 +1,564 @@
+{
+  "app": {
+    "title": "Raman",
+    "subtitle": "Learning to communicate with someone who has dementia"
+  },
+  "setup": {
+    "greeting": "Hello. I'm Raman.",
+    "description": "I have dementia... but I'm still here. And I want to help you connect with people like me.",
+    "audioSetupSubtitle": "Let's set up your audio experience so you can hear how I really speak.",
+    "audioSetupTitle": "Audio Setup",
+    "audioSetupInstructions": "📱 Mobile: Turn up volume, allow microphone access\n💻 Computer: Check speakers/headphones, allow microphone",
+    "testSoundButton": "Test Sound",
+    "testSoundSuccess": "Audio Working!",
+    "microphoneAvailable": "Microphone Available",
+    "microphoneAvailableDesc": "You can type or speak during lessons",
+    "microphoneUnavailable": "Typing Only",
+    "microphoneUnavailableDesc": "You can type your responses",
+    "startButton": "Start Learning with Raman",
+    "testAudioPhrase": "Can you hear this?",
+    "apiKeyTitle": "Choose your API key option:",
+    "apiKeyInfo": "Education mode is free! I use OpenAI's GPT-4o-mini model for Training and Live Chat modes. If you have your own API key, please use it. It helps keep costs low while I help more people. Thank you. 💙",
+    "apiKeyEmbedded": "Use demo API key (Recommended)",
+    "apiKeyEmbeddedDesc": "Quick start - no setup required",
+    "apiKeyOwn": "Use my own API key",
+    "apiKeyOwnDesc": "For unlimited usage",
+    "apiKeyPlaceholder": "sk-...",
+    "educationalContext": [
+  "🎯 Why Authentic Speech Matters: You'll hear how dementia actually affects communication timing and rhythm",
+  "🧠 This isn't simulation - this represents real cognitive processing changes",
+  "⏳ Prepare yourself: Your brain will want to rush. Learning patience here builds real-world communication skills"
+]
+  },
+  
+  "welcome": {
+    "greeting": "Hello. I'm Raman.",
+    "description": "I have dementia, but I'm still here. I want to help you connect with people like me.",
+    "audioSetupTitle": "Let's Set Up Your Audio",
+    "audioSetupDescription": "You'll need to hear how I really speak to understand my experience",
+    "audioSetupButton": "Setup Audio",
+    "testSoundTitle": "Test Sound",
+    "testSoundDescription": "Hear how Raman speaks",
+    "testSoundButton": "Test Audio",
+    "microphoneStatusTitle": "Microphone Available",
+    "microphoneStatusDescription": "You can speak during lessons",
+    "microphoneStatusReady": "✓ Ready",
+    "microphoneUnavailableTitle": "Typing Only",
+    "microphoneUnavailableDescription": "You can type responses",
+    "microphoneUnavailableStatus": "No Mic",
+    "audioExperienceTitle": "Audio Experience",
+    "audioExperienceOn": "ON",
+    "audioExperienceOff": "OFF",
+    "modes": {
+      "education": {
+        "title": "Education Mode",
+        "description": "Watch and listen as Raman teaches you about dementia communication",
+        "learnThrough": "Learn through:",
+        "features": [
+          "Real dementia speech patterns",
+          "Visual thinking demonstrations",
+          "Interactive lessons",
+          "No pressure - just observe"
+        ],
+        "educationalIntent": [
+          "You'll experience authentic dementia communication timing - this isn't just information, it's immersion",
+          "The extremely slow speech (6x slower than normal) puts you in the shoes of someone whose brain processing has changed",
+          "Some people with dementia may speak faster or differently, but this represents the cognitive effort required for many",
+        "Every pause, every search for words, every restart - this is what thinking feels like when your brain works differently"
+      ],
+"expectations": {
+  "title": "What to Expect:",
+  "items": [
+    "🕐 Speech will be much slower than you're used to",
+    "🧠 You'll feel the urge to speed things up - that's normal",
+    "💡 This discomfort builds real empathy",
+    "🎯 Focus on patience, not just information"
+      ]
+    },
+
+        "button": "Start Learning"
+      },
+      "training": {
+        "title": "Training Mode",
+        "description": "Coming soon - Practice conversations with guidance",
+        "willInclude": "Will include:",
+        "features": [
+          "Real-time feedback",
+          "Guided scenarios",
+          "Mistake corrections",
+          "Safe learning space"
+        ]
+      },
+      "liveChat": {
+        "title": "Live Chat Mode",
+        "description": "Coming soon - Open conversation with Raman",
+        "willInclude": "Will include:",
+        "features": [
+          "Specific conversations",
+          "Real situations",
+          "Ongoing support",
+          "Applied learning"
+        ]
+      }
+    },
+    "apiKeyTitle": "Choose your API key option:",
+    "apiKeyInfo": "Education mode is free! I use OpenAI's GPT-4o-mini model for Training and Live Chat modes. If you have your own API key, please use it. It helps keep costs low while I help more people. Thank you. 💙",
+    "apiKeyEmbedded": "Use demo API key (Recommended)",
+    "apiKeyEmbeddedDesc": "Quick start - no setup required",
+    "apiKeyOwn": "Use my own API key",
+    "apiKeyOwnDesc": "For unlimited usage"
+  },
+  "education": {
+  "title": "Education Mode",
+  "progressLabel": "Progress",
+  "lessonCounter": "Lesson {current} of {total}",
+  "listenButton": "Listen to Raman",
+  "speakingStatus": "Speaking...",
+  "nextButton": "Next Lesson",
+  "previousButton": "Previous",
+  "completeButton": "Complete Education",
+  "backToMenu": "Back to Menu",
+  "stopSpeaking": "Stop Speaking",
+  "preLesson": {
+  "title": "Before We Begin",
+  "content": [
+    "I'm going to speak much slower than you're used to. This isn't to frustrate you - it's to help you understand how my brain works now.",
+    "Some people with dementia speak faster, some slower, some differently - but we all need patience and understanding.",
+    "As you listen, notice your urge to speed things up. That feeling? That's what families experience. Learning to sit with that discomfort is part of building empathy."
+  ]
+},
+"intentModal": {
+  "title": "Why This Experience Matters",
+  "subtitle": "Understanding Communication From Inside Dementia",
+  "points": [
+    {
+      "icon": "🎯",
+      "title": "This Is Immersion, Not Information",
+      "description": "You're about to experience communication from inside dementia, not just learn about it"
+    },
+    {
+      "icon": "🧠",
+      "title": "The Slowed Speech Is Intentional",
+      "description": "Raman's speech represents the cognitive effort behind each word - this is thinking made audible"
+    },
+    {
+      "icon": "⏰",
+      "title": "The Pauses Are Real",
+      "description": "These aren't mistakes - they're authentic thinking time that the brain needs"
+    },
+    {
+      "icon": "💙",
+      "title": "Your Role",
+      "description": "Don't just listen to learn - listen to understand what it feels like"
+    }
+  ]
+},
+"speechExplanation": {
+  "title": "About Raman's Speech",
+  "timing": "Speech: 6x slower • Pauses: 4x longer • Processing: Authentic",
+  "note": "Note: People with dementia vary greatly - some speak faster, some differently. This represents one authentic experience of cognitive processing changes."
+},
+  "lessons": [
+    {
+      "title": "Meet Raman",
+      "content": "Hello. I'm Raman. I have dementia. I want to help you understand me.",
+      "thinking": "Let me introduce myself slowly...",
+      "emotion": "calm",
+      "insights": [
+        {
+          "icon": "👋",
+          "text": "First impressions matter more now - your calm energy helps me feel safe"
+        },
+        {
+          "icon": "🎭", 
+          "text": "I'm still the same person inside - dementia doesn't erase who I am"
+        },
+        {
+          "icon": "🤝",
+          "text": "Building trust takes time, but your patience creates the foundation"
+        },
+        {
+          "icon": "💙",
+          "text": "When you rush, I feel anxious. When you're calm, I can be myself"
+        }
+      ]
+    },
+    {
+      "title": "Why I Need Time",
+      "content": "When you talk to me. I need time. My brain works slower now. Please wait for me.",
+      "thinking": "Explaining why I'm slow...",
+      "emotion": "thoughtful",
+      "insights": [
+        {
+          "icon": "🧠",
+          "text": "My brain processes like a computer with limited memory - everything takes longer"
+        },
+        {
+          "icon": "⏰",
+          "text": "10 seconds feels like forever to you, but it's normal thinking time for me"
+        },
+        {
+          "icon": "🚫",
+          "text": "Finishing my sentences interrupts my thought process and makes me start over"
+        },
+        {
+          "icon": "🎯",
+          "text": "Your patience gives me the gift of completing my own thoughts"
+        }
+      ]
+    },
+    {
+      "title": "One Thing at a Time",
+      "content": "Too many instructions. I get confused. Tell me one thing. Then wait.",
+      "thinking": "Trying to explain overload...",
+      "emotion": "overwhelmed",
+      "insights": [
+        {
+          "icon": "🧩",
+          "text": "Multiple tasks create a mental traffic jam - I can't process them all at once"
+        },
+        {
+          "icon": "✅",
+          "text": "'Put on your shoes' works better than 'Get dressed and ready to go'"
+        },
+        {
+          "icon": "🎯",
+          "text": "One clear instruction helps me succeed instead of feeling overwhelmed"
+        },
+        {
+          "icon": "🌟",
+          "text": "Breaking tasks into steps isn't treating me like a child - it's helping me win"
+        }
+      ]
+    },
+    {
+      "title": "Don't Interrupt My Thoughts",
+      "content": "Sometimes I stop talking. but I'm still thinking. Please don't jump in. Let me finish.",
+      "thinking": "Finding the right words...",
+      "emotion": "focused",
+      "insights": [
+        {
+          "icon": "🔄",
+          "text": "When you interrupt, I lose my train of thought and have to start searching again"
+        },
+        {
+          "icon": "💭",
+          "text": "Silence doesn't mean I'm stuck - it means I'm working hard to find the right words"
+        },
+        {
+          "icon": "🔍",
+          "text": "Watch my face during pauses - I'm often still communicating through expressions"
+        },
+        {
+          "icon": "💪",
+          "text": "Letting me finish my thoughts builds my confidence and preserves my dignity"
+        }
+      ]
+    },
+    {
+      "title": "How Words Make Me Feel",
+      "content": "When you say 'Don't forget your medicine'. I feel bad. Instead say, 'Here's your medicine'. I feel good. Same message. Different feeling.",
+      "thinking": "Sharing my emotions...",
+      "emotion": "emotional",
+      "insights": [
+        {
+          "icon": "💔",
+          "text": "'Don't forget' reminds me of my failures. 'Here's your...' focuses on the solution"
+        },
+        {
+          "icon": "🎭",
+          "text": "My emotions work fine - harsh words hurt just as much as they always did"
+        },
+        {
+          "icon": "🌟",
+          "text": "Instead of 'You asked that already,' try 'Great question, let me tell you again'"
+        },
+        {
+          "icon": "❤️",
+          "text": "How you speak to me shapes how I feel about myself throughout the day"
+        }
+      ]
+    }
+  ]
+},
+  "emotions": {
+    "calm": "😌 Calm",
+    "thoughtful": "🤔 Thoughtful",
+    "overwhelmed": "😵 Overwhelmed",
+    "focused": "🎯 Focused",
+    "emotional": "💙 Sharing feelings"
+  },
+  "voice": {
+    "malePriorityNames": ["alex", "david", "daniel", "tom", "mark"],
+    "testPhrase": "Can you hear this?",
+    "speechConfig": {
+      "rate": 0.15,
+      "pauseMultiplier": 4,
+      "volume": 0.8,
+      "pitch": 0.6
+    }
+  },
+  "timer": {
+    "speaking": "Speaking...",
+    "pause": "Pause...",
+    "total": "Total:",
+    "complete": "Complete"
+  },
+  "thinking": {
+    "speaking": "Speaking...",
+    "thinking": "Thinking..."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try Again",
+    "cancel": "Cancel",
+    "save": "Save",
+    "continue": "Continue"
+  },
+  
+
+  "reflection": {
+    "setup": {
+      "costNotice": "Reflection chats are limited to 2 questions per lesson to keep costs manageable while serving more families. 💙",
+      "maxQuestions": 2,
+      "chatHeader": "💬 Reflection Chat",
+      "costSubtext": "(Limited to 2 questions to keep costs low and help more families)"
+    },
+    "chat": {
+      "questionCounter": "Question {current}/{total}",
+      "costReminder": "(Limiting questions to reduce costs)",
+      "questionsRemaining": "Questions remaining: {remaining}/{total}",
+      "inputPlaceholder": "Share your thoughts with Raman...",
+      "submitButton": "Send",
+      "skipButton": "Skip Reflection",
+      "continueButton": "Continue to Next Lesson",
+      "backToMenuButton": "Back to Menu"
+    },
+    "completion": {
+      "message": "Thank you for sharing your thoughts with me. I'm limiting our chat to keep costs low so more families can access this education.",
+      "readyForNext": "Ready for the next lesson?",
+      "finalLesson": "You've completed all the lessons. Thank you for learning with me."
+    },
+    "lessons": {
+      "lesson1": {
+        "title": "Meet Raman",
+        "focus": "Physical Awareness",
+        "initialQuestion": "Thank you for listening to me. I'm curious... Did your body tense up when I said 'dementia'? Notice what happened in your shoulders or jaw.",
+        "context": "This is lesson 1 about meeting Raman and first impressions.",
+        "learningGoal": "Help user recognize their physical reactions to dementia disclosure"
+      },
+      "lesson2": {
+        "title": "Why I Need Time", 
+        "focus": "Emotional Recognition",
+        "initialQuestion": "I noticed those pauses in my speech. What was harder for you - the slow speech or the long silences? What emotions came up?",
+        "context": "This is lesson 2 about needing time and patience.",
+        "learningGoal": "Help user identify their emotional responses to communication delays"
+      },
+      "lesson3": {
+        "title": "One Thing at a Time",
+        "focus": "Behavioral Patterns", 
+        "initialQuestion": "When I talked about getting confused with too many instructions, how many times did you want to jump in and 'help' or organize things for me?",
+        "context": "This is lesson 3 about cognitive overload and simple instructions.",
+        "learningGoal": "Help user recognize their impulse to intervene or fix"
+      },
+      "lesson4": {
+        "title": "Don't Interrupt My Thoughts",
+        "focus": "Perspective Shift",
+        "initialQuestion": "Now imagine feeling this rushed in every conversation, every day. How would that change you? What would it feel like to have your thinking interrupted constantly?",
+        "context": "This is lesson 4 about not interrupting thought processes.",
+        "learningGoal": "Help user develop empathy through perspective-taking"
+      },
+      "lesson5": {
+        "title": "How Words Make Me Feel",
+        "focus": "Action Commitment", 
+        "initialQuestion": "Think of someone in your life - maybe a parent, spouse, or friend. What's one specific thing you'll do differently after meeting me?",
+        "context": "This is lesson 5 about the emotional impact of word choices.",
+        "learningGoal": "Help user commit to specific behavioral changes"
+      }
+    },
+    "mockResponses": {
+      "lesson1": {
+        "responses": [
+          "That's a very honest reaction. Many people feel tension when they first hear the word 'dementia.' The fact that you noticed your body's response shows you're really paying attention.",
+          "My wife had a similar reaction when I was first diagnosed. Your awareness of these physical responses will help you connect better with people like me.",
+          "In my business days, I learned that first impressions happen in seconds. Your body knew something important was happening before your mind caught up."
+        ]
+      },
+      "lesson2": {
+        "responses": [
+          "The silences are often harder than the slow speech, aren't they? My daughter told me the same thing - waiting feels more difficult than listening slowly.",
+          "When I was running my company, I used to hate waiting too. Now I understand that patience isn't just politeness - it's kindness.",
+          "Those emotions you felt are completely normal. Every family member I've talked to experiences some frustration with the pace."
+        ]
+      },
+      "lesson3": {
+        "responses": [
+          "That urge to help and organize is so natural - my son does the same thing. But sometimes the best help is just letting me figure it out my way.",
+          "In business, I was always the one trying to make things more efficient. Now I'm learning that efficiency isn't always what matters most.",
+          "It's interesting how we want to fix things, isn't it? My wife has learned that sometimes I don't need fixing - just understanding."
+        ]
+      },
+      "lesson4": {
+        "responses": [
+          "That feeling of being rushed constantly - it's exhausting. Imagine if every conversation in your day felt like you were being hurried along.",
+          "My daughters are getting better at this, but it took time. When someone waits for my thoughts, I feel respected instead of broken.",
+          "In my work years, I interrupted people all the time. Now I understand how it feels to have your thinking process cut off mid-stream."
+        ]
+      },
+      "lesson5": {
+        "responses": [
+          "That's wonderful that you're thinking of someone specific. Small changes in how we phrase things can make such a big difference in how loved someone feels.",
+          "My wife started doing exactly that - turning reminders into caring gestures. Instead of 'Don't forget your jacket,' she says 'I brought your jacket.' Same action, completely different feeling.",
+          "The fact that you're ready to make a specific change tells me this conversation has been meaningful. That person in your life is lucky to have you thinking about them this way."
+        ]
+      }
+    },
+    "fallbackResponses": {
+      "error": "I'm having trouble responding right now. Your thoughts are important to me.",
+      "inappropriate": "I appreciate you sharing, but let's keep our conversation focused on communication and connection.",
+      "technical": "Something went wrong with our chat. Would you like to continue to the next lesson?",
+      "generic": "Thank you for sharing that with me. Your awareness is really important."
+    },
+    "transitions": {
+      "enterReflection": "Now let's reflect on what you just experienced...",
+      "betweenQuestions": "I'd like to ask you one more thing...",
+      "exitReflection": "Thank you for sharing your thoughts with me.",
+      "nextLesson": "Let's continue to the next lesson.",
+      "courseComplete": "You've completed all lessons with me. Thank you for this journey."
+    }
+  },
+  "thoughtJournal": {
+  "themes": {
+    "physical": {
+      "color": "#3B82F6",
+      "name": "Physical Awareness"
+    },
+    "emotional": {
+      "color": "#10B981", 
+      "name": "Emotional Recognition"
+    },
+    "behavioral": {
+      "color": "#F59E0B",
+      "name": "Behavioral Patterns"
+    },
+    "perspective": {
+      "color": "#8B5CF6",
+      "name": "Perspective Shift"
+    },
+    "action": {
+      "color": "#F59E0B",
+      "name": "Action Commitment"
+    }
+  },
+  "lessons": {
+    "lesson1": {
+      "theme": "physical",
+      "cards": [
+        {
+          "timing": "first_pause",
+          "icon": "💭",
+          "prompt": "Notice your first reaction when I said 'dementia' - what happened in your body?"
+        },
+        {
+          "timing": "middle_pause", 
+          "icon": "🫂",
+          "prompt": "Did you lean forward or pull back? Your body language shows how you're feeling."
+        },
+        {
+          "timing": "end",
+          "icon": "🎯",
+          "prompt": "I'm still the same person inside. Did that surprise you?"
+        }
+      ]
+    },
+    "lesson2": {
+      "theme": "emotional",
+      "cards": [
+        {
+          "timing": "first_pause",
+          "icon": "⏰",
+          "prompt": "How comfortable are you with silence? Notice any urge to fill the pause."
+        },
+        {
+          "timing": "middle_pause",
+          "icon": "😤", 
+          "prompt": "Did you feel impatient? Frustrated? Those feelings are completely normal."
+        },
+        {
+          "timing": "end",
+          "icon": "💙",
+          "prompt": "What would patience feel like if you were the one needing time?"
+        }
+      ]
+    },
+    "lesson3": {
+      "theme": "behavioral",
+      "cards": [
+        {
+          "timing": "first_pause",
+          "icon": "🧠",
+          "prompt": "How many tasks do you usually give people at once? Count them."
+        },
+        {
+          "timing": "middle_pause",
+          "icon": "🔧",
+          "prompt": "Did you want to 'help' me organize my thoughts better?"
+        },
+        {
+          "timing": "end",
+          "icon": "🎯",
+          "prompt": "Breaking things down isn't treating me like a child - it's helping me succeed."
+        }
+      ]
+    },
+    "lesson4": {
+      "theme": "perspective",
+      "cards": [
+        {
+          "timing": "first_pause",
+          "icon": "🤐",
+          "prompt": "How many times did you want to finish my sentence?"
+        },
+        {
+          "timing": "middle_pause",
+          "icon": "🔄",
+          "prompt": "Imagine losing your train of thought every time someone interrupts."
+        },
+        {
+          "timing": "end",
+          "icon": "🌍",
+          "prompt": "Now imagine this happening in EVERY conversation, EVERY day."
+        }
+      ]
+    },
+    "lesson5": {
+      "theme": "action",
+      "cards": [
+        {
+          "timing": "first_pause",
+          "icon": "💔",
+          "prompt": "Think of someone you love. How do you usually remind them of things?"
+        },
+        {
+          "timing": "middle_pause",
+          "icon": "✨",
+          "prompt": "Same message, different feeling. What's the difference?"
+        },
+        {
+          "timing": "end",
+          "icon": "🎯",
+          "prompt": "What's ONE specific thing you'll do differently after meeting me?"
+        }
+      ]
+    }
+  },
+  "ui": {
+    "cardSlideDirection": "right",
+    "stackDirection": "vertical", 
+    "cardSpacing": "12px",
+    "animationDuration": "500ms",
+    "glowDuration": "2000ms"
+  }
+  }
+}
