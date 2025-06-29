@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 
+
 // ThoughtJournal that shows cards sequentially when triggered
 const ThoughtJournal = ({ 
   currentLessonIndex, 
@@ -11,6 +12,7 @@ const ThoughtJournal = ({
   const [visibleCards, setVisibleCards] = useState([]);
   const [animatingCards, setAnimatingCards] = useState(new Set());
   const previousLessonIndex = useRef(currentLessonIndex);
+  const isAddingCards = useRef(false);
 
   const thoughtJournalData = t('thoughtJournal') || {};
   const themes = thoughtJournalData.themes || {};
@@ -47,7 +49,7 @@ const ThoughtJournal = ({
       isVisible
     });
     
-    if (triggerNewCards && isVisible) {
+    if (triggerNewCards && isVisible && !isAddingCards.current) {
       console.log('✨ Adding new lesson cards for lesson:', currentLessonIndex);
       addNewLessonCards(currentLessonIndex);
     }
@@ -82,6 +84,11 @@ const ThoughtJournal = ({
     console.log('🎯 addNewLessonCards called for lesson:', lessonIndex);
     const lessonKey = `lesson${lessonIndex + 1}`;
     const lesson = lessons[lessonKey];
+    if (isAddingCards.current) {
+  console.log('🚫 Already adding cards, skipping');
+  return;
+}
+isAddingCards.current = true;
     
     console.log('📚 Lesson data:', lesson);
     
@@ -128,6 +135,10 @@ const ThoughtJournal = ({
         
       }, index * 1500); // Much slower: 1.5 seconds between each card
     });
+    // Reset flag when all cards are done
+setTimeout(() => {
+  isAddingCards.current = false;
+}, (newCards.length - 1) * 1500 + 1200);
   };
 
   const ThoughtCard = ({ card, index }) => {

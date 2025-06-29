@@ -820,24 +820,7 @@ const CoachRaman = () => {
       const phrases = cleanText.split(/[.!?]+/).filter(phrase => phrase.trim().length > 0);
       
       const speakPhrases = (index) => {
-        if (index >= phrases.length) {
-          setIsSpeaking(false);
-          setRamanThinking('');
-          setEmotionState('calm');
-          if (isEducation) {
-            setTimeout(() => {
-              console.log('⏰ Setting timer phase to complete');
-              setTimerPhase('complete');
-              setTriggerThoughtCards(prev => !prev);
-               console.log('💭 Previous trigger state:', prev);
-              console.log('💭 New trigger state:', !prev);
-              setShowCards(true); // Add this line
-               console.log('🎴 Show cards set to true');
-            }, 500);
-          }
-          return;
-        }
-        
+       
         const phrase = phrases[index].trim();
         if (!phrase) {
           speakPhrases(index + 1);
@@ -879,6 +862,7 @@ const CoachRaman = () => {
             setIsSpeaking(false);
             setRamanThinking('');
             setEmotionState('calm');
+            setShowCards(true);
             if (isEducation) {
               setTimeout(() => {
                 console.log('⏰ Setting timer phase to complete');
