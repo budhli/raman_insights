@@ -111,7 +111,7 @@
   "education": {
   "title": "Education Mode",
   "progressLabel": "Progress",
-  "lessonCounter": "Lesson {current} of {total}",
+  "lessonCounter": "Lesson {{current}} of {{total}}",
   "listenButton": "Listen to Raman",
   "speakingStatus": "Speaking...",
   "nextButton": "Next Lesson",
@@ -123,8 +123,7 @@
   "title": "Before We Begin",
   "content": [
     "I'm going to speak much slower than you're used to. This isn't to frustrate you - it's to help you understand how my brain works now.",
-    "Some people with dementia speak faster, some slower, some differently - but we all need patience and understanding.",
-    "As you listen, notice your urge to speed things up. That feeling? That's what families experience. Learning to sit with that discomfort is part of building empathy."
+    "As you listen, notice your urge to speed things up. That feeling?  That's what families experience. Learning to sit with that discomfort is part of building empathy."
   ]
 },
 "intentModal": {
